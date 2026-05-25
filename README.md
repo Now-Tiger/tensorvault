@@ -1,4 +1,4 @@
-# 🌌 TensorVault
+# TensorVault ✧
 
 <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
   <img
