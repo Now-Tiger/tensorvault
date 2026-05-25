@@ -48,7 +48,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(title="Multimodal Vault API", lifespan=lifespan)
 
 
-# Mount local storage replace later with object storage such as S#
+# Mount local storage replace later with object storage such as S3
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 
