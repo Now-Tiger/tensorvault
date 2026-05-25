@@ -9,7 +9,7 @@
 
 <br />
 
-A high-performance, multimodal semantic search engine for creators. This API allows users to upload both images and video assets, seamlessly mapping them into a shared latent space using HuggingFace's CLIP model. Users can then query their vault using natural language to retrieve the exact frame or image that matches their text description.
+A high-performance, multimodal semantic search engine for creators. This API allows users to upload both images and video assets, seamlessly mapping them into a shared latent space using HuggingFace's CLIP model. Users can then query their vault using natural language to retrieve the exact frame or image that matches their text description. [Walk through demo here](https://drive.google.com/file/d/1VemULUzg0dd16Eyu6yFojEzs9v16PNqO/view?usp=sharing)
 
 ## ✨ Core Features
 
