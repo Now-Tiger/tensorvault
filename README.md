@@ -1,5 +1,21 @@
 # 🌌 TensorVault
 
+<div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
+  <img
+    src="assets/app-screenshot.png"
+    alt="WindScope mascot"
+    style="
+      width: 800px;
+      height: 750px;
+      border-radius: 20px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    "
+  />
+</div>
+
+<br />
+
 A high-performance, multimodal semantic search engine for creators. This API allows users to upload both images and video assets, seamlessly mapping them into a shared latent space using HuggingFace's CLIP model. Users can then query their vault using natural language to retrieve the exact frame or image that matches their text description.
 
 ## ✨ Core Features
