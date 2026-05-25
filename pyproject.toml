@@ -1,0 +1,28 @@
+[project]
+name = "tensorvault"
+version = "0.1.0"
+description = "A high-performance, multimodal semantic search engine for creators"
+readme = "README.md"
+requires-python = ">=3.10, <3.12"
+
+dependencies = [
+  # 1. For Apple Silicon, Windows, and Linux: Install the latest PyTorch
+  "torch>=2.12.0; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+  "torchvision>=0.17.0; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+  "torchaudio>=2.2.0; sys_platform != 'darwin' or platform_machine != 'x86_64'",
+  # 2. For Intel Macs: Pin EXACTLY to the last supported release ecosystem
+  "torch==2.2.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+  "torchvision==0.17.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+  "torchaudio==2.2.2; sys_platform == 'darwin' and platform_machine == 'x86_64'",
+  # 3. Rest of your stack (these are universally compatible)
+  "transformers",
+  "qdrant-client",
+  "sentence-transformers",
+  "pydantic",
+  "pillow",
+  "python-dotenv>=1.2.2",
+  "fastapi>=0.136.3",
+  "uvicorn>=0.48.0",
+  "python-multipart>=0.0.29",
+  "opencv-python-headless>=4.13.0.92",
+]
