@@ -4,13 +4,6 @@
   <img
     src="assets/app-screenshot.png"
     alt="WindScope mascot"
-    style="
-      width: 800px;
-      height: 750px;
-      border-radius: 20px;
-      object-fit: cover;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    "
   />
 </div>
 
