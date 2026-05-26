@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .git/
 .env
+uploads/
 qdrant_data/
 models/
 .huggingface/
